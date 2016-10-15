@@ -29,7 +29,7 @@ for line in f:
 			float(l[30]),		# Latitude
 			float(l[31])		# Longitude
 			])
-		y.append(float(l[23]))
+		y.append(float(l[23]))		# Sale price
 	i = i + 1
 
 f.close()
